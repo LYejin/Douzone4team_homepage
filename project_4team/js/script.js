@@ -20,7 +20,7 @@ if (localStorage.getItem("heart") == "true") {
 // music info
 const imgWrap = musicWrap.querySelector(".page_two__main__current_music_photo");
 const albumArt = musicWrap.querySelector(
-    ".page_two__main__current_music_photo>img"
+  ".page_two__main__current_music_photo>img"
 );
 const musicName = musicWrap.querySelector(".currrent_music_info__title");
 const musicArtist = musicWrap.querySelector(".currrent_music_info__singer");
